@@ -9,7 +9,7 @@ function Hero() {
             Hi, I'm <span className="highlight">Barla Mahender</span>
           </h1>
           <p className="hero-subtitle">
-            Computer Science Engineering Post Graduate with a passion for building innovative solutions
+            Computer Science Engineer Post Graduate with a passion for building innovative solutions
           </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">
