@@ -42,7 +42,7 @@ function Contact() {
             <form
               ref={formRef}
               className="contact-form"
-              action="https://formspree.io/f/xldblkky" 
+              action="https://formspree.io/f/xaqapayp" 
               method="POST"
             >
               <div className="form-group">
