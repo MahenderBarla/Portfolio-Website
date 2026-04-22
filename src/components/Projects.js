@@ -3,7 +3,7 @@ import foods from "../assets/food.png"
 import stocks from "../assets/stock.jpg"
 import commerce from "../assets/ecommerce.jpg"
 import srgym from "../assets/gym.jpeg"
-import srcar from "../assets/car.jpg"
+//import srcar from "../assets/car.jpg"
 import hub from "../assets/git.png"
 import vedio from "../assets/image.png"
 
