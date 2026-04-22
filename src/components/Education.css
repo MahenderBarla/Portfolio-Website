@@ -1,0 +1,74 @@
+.education {
+  background-color: var(--background);
+  padding: 64px 0; 
+}
+
+.education-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.education-card {
+  background-color: var(--card-bg);
+  border-radius: 8px; 
+  padding: 32px; 
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+  margin-bottom: 32px; 
+}
+
+.university {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 8px; 
+  color: var(--text-color);
+}
+
+.degree {
+  color: var(--text-light);
+  font-weight: 500;
+  margin-bottom: 16px; 
+}
+
+.grade {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 24px; 
+}
+
+.courses-title {
+  font-size: 18px; 
+  margin-bottom: 16px; 
+  color: var(--text-color);
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px; 
+}
+
+.course-item {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.course-bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .education-container {
+    padding: 0 15px; 
+  }
+
+  .courses-grid {
+    grid-template-columns: 1fr;
+  }
+}
